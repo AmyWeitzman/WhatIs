@@ -1,65 +1,22 @@
-# what-is README
+# What Is (VS Code Extension)
 
-This is the README for your extension "what-is". After writing up a brief description, we recommend including the following sections.
+At a VS Code Hackathon, I created an extension called What Is that helps beginner programmers become familiar with certain project files that may seem daunting at first. As a programmer, I always like to understand how everything works and what everything means. That's why I found it hard to jump right in to a project when there was so much starter code and auto-generated files that I didn't understand. This extension was created so that others can learn briefly about these files and fell more comfortable starting a new project.
 
-## Features
+## How it Works
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+The file options currently supported are the following:
+* package.json 
+* package-lock.json
+* README.md
+* .gitignore
+* robots.txt
 
-For example if there is an image subfolder under your extension project workspace:
+When one of these files appears in your project, you will have the option to learn more about the file by right-clicking on it and selecting the feature "What Is". A brief description of the file will then be shown in a message.
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+\!\[\What Is]\(what-is-demo.gif\)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 1.0.0 
+6/28/20: Initial release of What Is VS Code Extension, supported file options include package.json, package-lock.json, README.md, .gitignore, and robots.txt.
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
