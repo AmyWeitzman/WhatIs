@@ -13,7 +13,7 @@ The file options currently supported are the following:
 
 When one of these files appears in your project, you will have the option to learn more about the file by right-clicking on it and selecting the feature __What Is__. A brief description of the file will then be shown in a message.
 
-<img src="what-is-demo.gif" width=1000><br>
+<img src="what-is-demo.gif" width=800><br>
 
 ## Release Notes
 
